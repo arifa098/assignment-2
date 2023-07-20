@@ -149,3 +149,23 @@ figure {
 figure:hover .overlay {
     opacity: 1;
 }
+
+/* Play Section */
+#play-sec{
+    display: flex;
+    margin: 140px;
+    align-items: center;
+}
+#big-img{
+    width: 45%;
+}
+#small-img > img{
+    width: 150%;
+    transform: translateX(-140px) translateY(150px);
+    border:solid gainsboro;
+    border-radius: 10px;
+}
+#play-text > h1{
+    font-size:30px ;
+    margin-bottom:10px ;
+}
