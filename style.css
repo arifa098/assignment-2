@@ -7,6 +7,9 @@ header{
     padding: 30px 200px;
    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
+small{
+    color: gray;
+}
 #title{
     display: flex;
     font-size: 20px;
@@ -188,4 +191,48 @@ figure:hover .overlay {
 .games:hover{
     border: 1px solid #FF42A5;
     color: #FF42A5;
+}
+
+/* Footer */
+footer{
+    background-color: #0B0223;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#footer-title{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+}
+#footer-title > img{
+    width: 60px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+.options > ul{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.options > ul > li{
+    list-style: none;
+    margin-right: 20px;
+}
+#icons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#icons > i{
+    margin-right: 20px;
+}
+#copyright{
+    margin-left: 470px;
 }
