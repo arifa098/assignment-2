@@ -169,3 +169,23 @@ figure:hover .overlay {
     font-size:30px ;
     margin-bottom:10px ;
 }
+
+/* Category Section */
+#category{
+    text-align: center;
+}
+.games > img{
+    max-width:40px ;
+}
+.games{
+    font-weight: bolder;
+    margin: 10px 45px 20px 0px;
+    border: 0;
+    background-color: white;
+    border-radius:40px;
+    padding: 10px 20px;
+}
+.games:hover{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+}
